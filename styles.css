@@ -69,6 +69,7 @@ button#clearBtn:hover {
   color: #000000;
 }
 
-textarea:selected, input:selected {
-  border: solid black 4px;
+textarea:focus, input:focus {
+  outline: none;
+  border: solid black 6px;
 }
