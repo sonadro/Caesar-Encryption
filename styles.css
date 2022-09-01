@@ -29,6 +29,7 @@ textarea, input {
   border-radius: 10px;
   border-width: 6px;
   color: black;
+  resize: none;
 }
 
 input#number {
