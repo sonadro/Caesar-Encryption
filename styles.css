@@ -65,7 +65,7 @@ footer {
   color: white;
 }
 
-button#clearBtn:hover {
+button#clearBtn:hover, button#clearBtn:focus {
   background-color: #ffffff;
   color: #000000;
 }
