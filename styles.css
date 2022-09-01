@@ -1,63 +1,74 @@
+@font-face {
+  font-family: 'Oswald';
+  src: url('Fonts/Oswald-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Inconsolata';
+  src: url('Fonts/Inconsolata-Regular.ttf');
+  font-weight: 400;
+}
+
 header {
-    text-align: center;
+  text-align: center;
   }
-  
-  body {
-    font-family: 'Oswald', sans-serif;
-  }
-  
-  textarea, input {
-    width: 40%;
-    border-radius: 10px;
-    border-width: 5px;
-    font-weight: bold;
-    color: black;
-  }
-  
-  input#number {
-    width: 25ch;
-    text-align: center;
-  }
-  
-  p#output {
-    font-family: 'Inconsolata', monospace;
-    border: solid 4px black;
-    border-radius: 10px;
-    width: 40%;
-    text-align: center;
-    margin: 0 auto;
-    color: black;
-  }
-  
-  div.kryptering {
-    text-align: center;
-  }
-  
-  label {
-    font-weight: bold;
-  }
-  
-  button#clearBtn {
-    border-radius: 10px;
-    border-width: 5px;
-  }
-  
-  footer {
-    background-color: black;
-    padding: 15px;
-    width: 50%;
-    text-align: center;
-    margin: 0px auto;
-    border: solid 5px #04bd04;
-    border-radius: 16px;
-    color: white;
-  }
-  
-  button#clearBtn:hover {
-    background-color: #ffffff;
-    color: #000000;
-  }
-  
-  textarea:selected, input:selected {
-    border: solid black 4px;
-  }
+
+body {
+  font-family: 'Oswald', Fallback, sans-serif;
+}
+
+label {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+textarea, input {
+  border: solid 6px grey;
+  width: 40%;
+  border-radius: 10px;
+  border-width: 6px;
+  color: black;
+}
+
+input#number {
+  width: 25ch;
+  text-align: center;
+}
+
+textarea#output {
+  font-family: 'Inconsolata', Fallback, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+  color: black;
+}
+
+div.kryptering {
+  text-align: center;
+}
+
+button#clearBtn {
+  border-radius: 10px;
+  border-width: 5px;
+}
+
+footer {
+  background-color: black;
+  padding: 15px;
+  width: 50%;
+  text-align: center;
+  margin: 0px auto;
+  border: solid 5px #04bd04;
+  border-radius: 16px;
+  color: white;
+}
+
+button#clearBtn:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+textarea:selected, input:selected {
+  border: solid black 4px;
+}
