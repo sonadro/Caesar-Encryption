@@ -74,3 +74,17 @@ textarea:focus, input:focus {
   outline: none;
   border: solid black 6px;
 }
+
+@media screen and (max-width: 1000px) {
+  footer {
+    width: 90%;
+  }
+
+  textarea {
+    width: 75%;
+  }
+  
+  input {
+    size: 75%;
+  }
+}
