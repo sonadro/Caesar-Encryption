@@ -54,7 +54,7 @@ button#clearBtn {
   border-width: 5px;
 }
 
-footer {
+div.alanTuring, div.omNettstedet {
   background-color: black;
   padding: 15px;
   width: 50%;
