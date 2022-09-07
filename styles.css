@@ -40,7 +40,6 @@ input#number {
 textarea#output {
   font-family: 'Inconsolata', Fallback, sans-serif;
   font-weight: bold;
-  text-align: center;
   margin: 0 auto;
   color: black;
 }
